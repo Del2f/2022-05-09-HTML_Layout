@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <!--[if lt IE 10]>
+  <link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+</head>
+
+<body>
+
+    <!-- 네비게이션 바 -->
+    <div class="navbar">
+        <a class="logo" a href="#"><i class="fas fa-plane"></i>AJS</a>
+        <div class="navbar_space"></div>
+        <a class="product" href="#">Product</a>
+        <a class="services" href="#">Services</a>
+    </div>
+
+    <!-- 메인 페이지 -->
+    <div class="main_background">
+        <h4 class="main_title">도쿄 Tokyo</h4>
+        <p class="main_post"><a class="main_subtitle">도쿄의 날씨</a><br>낮에는 따뜻하고 밤에는 선선해 걸어 다니기 좋다. 이 즈음 청명한 날씨가 이어진다. 평균
+            기온이 16도 정도로 여름이지만 많이 덥지 않고, 한낮에도 습도가 낮아 여행하기 좋다.</p>
+        <button class="main_reserve" onclick="location.href='http://www.naver.com' ">예약하기</button>
+    </div>
+
+    <!-- 두번째 메인페이지 -->
+    <div class="main02">
+        <h4 class="main02_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestiae veniam minima
+            cupiditate est. Dolorem, suscipit omnis! Quaerat, in perspiciatis doloremque provident aliquid</h4>
+        <p class="main02_post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus maiores ex
+            delectus aperiam tenetur corrupti corporis quo dolor aliquam dolorem esse cupiditate, laudantium accusamus
+            iste, molestiae pariatur necessitatibus nulla.</p>
+    </div>
+
+    <!-- 세번째 가로바 -->
+
+    <div class="point_4">
+        <div>
+            <i class="fas fa-plane"></i>
+            <h3>빠른 여행속도</h3>
+            <p>1~2시간후 도착</p>
+        </div>
+        <div>
+            <i class="fab fa-servicestack"></i>
+            <h3>최고의 서비스</h3>
+            <p>서비스상 수상</p>
+        </div>
+        <div>
+            <i class="fas fa-utensils"></i>
+            <h3>무료 기내식</h3>
+            <p>아주 저렴짱</p>
+        </div>
+        <div>
+            <i class="fab fa-cc-paypal"></i>
+            <h3>결제하세여</h3>
+            <p>히히</p>
+        </div>
+    </div>
+
+    <!-- 상품 리스트 -->
+
+    <div class="shop_container">
+        <div class="shop">
+            <div class="posi1">
+                <img src="01.jpg" alt="">
+                <div class="overlay">
+                    <p>BISO BS-304 50% Sale</p>
+                </div>
+            </div>
+        </div>
+        <div class="shop"><img src="02.jpg" alt=""></div>
+        <div class="shop"><img src="03.jpg" alt=""></div>
+    </div>
+
+    <input type="range">
+
+    <progress value="0.4"></progress>
+
+<style>
+
+input[type=range] {
+    appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+progress{
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    appearance: none;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(21, 209, 46);
+    border-radius: 50px;
+}
+
+</style>
+    <!-- 문의 -->
+    <div class="back_black">
+        <form action="" class="contact">
+            <h1 class="con_title">contact us</h1>
+            <h3>Your Email</h3>
+            <input class="con_email" type="email" placeholder="email@example.com">
+            <div class="firstlast">
+                <div class="first">
+                    <h3>First name</h3>
+                    <input class="con_name" type="text">
+                </div>
+                <div class="last">
+                    <h3>Last name</h3>
+                    <input class="con_name" type="text">
+                </div>
+            </div>
+            <h3>Message</h3>
+            <input class="con_mebox" type="text">
+            <div class="con_subsand">
+                <input id="sub" type="checkbox">
+                <label for="sub" class="check_subs">Subscribe</label>
+                <button class="submit">SEND</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
